@@ -5,7 +5,6 @@ function ligma(){
     var curtidas = document.getElementById("curtidas").value;
     var comentarios = document.getElementById("comentarios").value;
     var views = document.getElementById("views").value;
-    var nPosts = document.getElementById("nPosts").value;
     var horario = document.getElementById("horario").value;
     var mPost = document.getElementById("mPost").value;
     var cPost = document.getElementById("cPost").value;
