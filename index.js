@@ -21,7 +21,7 @@ function ligma(){
   document.getElementById("ccurtidas").innerHTML=("*Quantidade de curtidas*❤️:" + curtidas +
   "(Total de curtidas na semana)")
 
-  document.getElementById("ccomentarios").innerHTML=("*Quantidade de comentários*💬:" + curtidas +
+  document.getElementById("ccomentarios").innerHTML=("*Quantidade de comentários*💬:" + comentarios +
   "(Total de comentários na semana)")
 
   document.getElementById("vviews").innerHTML=("*Quantidade de Visualizações*👀:" + views +
