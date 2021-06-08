@@ -11,7 +11,7 @@ function ligma(){
     var cPost = document.getElementById("cPost").value;
     var pSeguidores = document.getElementById("pSeguidores").value;
 
-    document.getElementById("name").innerHTML=("*Parabéns 🎉 a semana foi incrível 🤩, fico muito feliz de ver sua evolução*😁" + name)
+    document.getElementById("name").innerHTML=("*Parabéns 🎉 a semana foi incrível 🤩, fico muito feliz de ver sua evolução*😁")
     document.getElementById("vSeguidores").innerHTML=("*Ganho/Perda de seguidores:*" + gSeguidores +
  + "(Quantos seguidores você ganhou ou perdeu na semana)")
  
@@ -39,9 +39,3 @@ function ligma(){
   document.getElementById("mmPost").innerHTML=("**Seu melhor Post foi esse:*" + mPost+
   "(Com base nas interações)")
  
-
-function reload() {
-    location.reload()
-}
-
- }
