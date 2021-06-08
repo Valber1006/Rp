@@ -12,7 +12,7 @@ function ligma(){
     var pSeguidores = document.getElementById("pSeguidores").value;
 
     document.getElementById("name").innerHTML=("*Parabéns 🎉 a semana foi incrível* 🤩, fico muito feliz de ver sua evolução*😁")
-    document.getElementById("vSeguidores").innerHTML=("*Ganho/Perda de seguidores:*" + gSeguidores
+    document.getElementById("vSeguidores").innerHTML=("*Ganho/Perda de seguidores*:" + gSeguidores
  + "(Quantos seguidores você ganhou ou perdeu na semana)")
  
  document.getElementById("xSeguidores").innerHTML=("*Seguidores*👥:" + qSeguidores + 
