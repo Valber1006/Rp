@@ -11,32 +11,32 @@ function ligma(){
     var cPost = document.getElementById("cPost").value;
     var pSeguidores = document.getElementById("pSeguidores").value;
 
-    document.getElementById("name").innerHTML=("*Parabéns 🎉 a semana foi incrível 🤩, fico muito feliz de ver sua evolução*😁")
-    document.getElementById("vSeguidores").innerHTML=("*Ganho/Perda de seguidores:*" + gSeguidores +
+    document.getElementById("name").innerHTML=("*Parabéns 🎉 a semana foi incrível* 🤩, fico muito feliz de ver sua evolução*😁")
+    document.getElementById("vSeguidores").innerHTML=("*Ganho/Perda de seguidores:*" + gSeguidores
  + "(Quantos seguidores você ganhou ou perdeu na semana)")
  
- document.getElementById("xSeguidores").innerHTML=("*Seguidores👥:*" + qSeguidores + 
+ document.getElementById("xSeguidores").innerHTML=("*Seguidores*👥:" + qSeguidores + 
   "(Quantidade de seguidores atual)")
 
-  document.getElementById("ccurtidas").innerHTML=("*Quantidade de curtidas❤️:*" + curtidas +
+  document.getElementById("ccurtidas").innerHTML=("*Quantidade de curtidas*❤️:" + curtidas +
   "(Total de curtidas na semana)")
 
-  document.getElementById("ccomentarios").innerHTML=("*Quantidade de comentários💬:*" + curtidas +
+  document.getElementById("ccomentarios").innerHTML=("*Quantidade de comentários*💬:" + curtidas +
   "(Total de comentários na semana)")
 
-  document.getElementById("vviews").innerHTML=("*Quantidade de Visualizações👀:*" + views +
+  document.getElementById("vviews").innerHTML=("*Quantidade de Visualizações*👀:" + views +
   "(Total de visualizações na semana)")
 
-  document.getElementById("ccPost").innerHTML=("*% Aumento/diminuição de interações:*" + cPost +
+  document.getElementById("ccPost").innerHTML=("*% Aumento/diminuição de interações*:" + cPost +
   "(Porcentagem de aumento ou diminuição nas interações dos seus posts)")
 
-  document.getElementById("ppSeguidores").innerHTML=("*% de seguidores interagindo:*" + pSeguidores +
+  document.getElementById("ppSeguidores").innerHTML=("*% de seguidores interagindo*:" + pSeguidores +
   "(Porcentagem dos seguidores interagindo com seus posts)")
   
   document.getElementById("hhorario").innerHTML=("*Seu melhor horário de postagem*:" + horario +
   "(Com base nos horários dos seus melhores posts)")
 
-  document.getElementById("mmPost").innerHTML=("**Seu melhor Post foi esse:*" + mPost+
+  document.getElementById("mmPost").innerHTML=("*Seu melhor Post foi esse*:" + mPost+
   "(Com base nas interações)")
  
 
